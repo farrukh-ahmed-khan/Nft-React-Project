@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+.home-wrapper .cardNft {
+  height: 370px;
+}
+
+.home-wrapper .cardNft .cardImg {
+  height: 210px;
+  width: 100%;
+}
+
+.home-wrapper .cardNft .cardTitle {
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.home-wrapper .cardNft .cardTitleAndNo {
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin-top: -7px;
+}
+
+.home-wrapper .cardNft .cardPrice {
+  border-bottom: 1px solid #333;
+  text-align: right;
+  font-family: "Montserrat", sans-serif;
+}
+
+.home-wrapper .cardNft .cardPrice .priceHeading,
+.home-wrapper .cardNft .cardPrice .days {
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.home-wrapper .cardNft .cardPrice .price {
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.filter-container {
+  background-color: white;
+  width: 100%;
+  border-radius: 1.25rem 1.25rem 0 0;
+  margin-top: 30px;
+  min-height: 100vh;
+  padding-right: 1rem;
+  position: relative;
+  right: -1rem;
+  transition: right 1s;
+}
+
+.filter-container .filter-heading {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 15px;
+}
+.filter-container .filter-arrow img {
+  width: 32px;
+  cursor: pointer;
+}
+.filter-container .filter-heading h2 {
+  font-size: 22px;
+  color: #565759;
+}
+
+.filter-container .filter-heading h2 img {
+  width: 32px;
+  margin: 0 10px;
+}
+
+.filter-container .sub-menu img {
+  width: 22px;
+}
+
+.filter-container .sub-menu div:first-of-type span:last-of-type {
+  font-size: 15px;
+}
+
+.filter-container .sub-menu-body > div > div button,
+.sub-menu-body > div > div select,
+.sub-menu-body > div > div input[type="number"] {
+  width: 100% !important;
+  border-radius: 12px !important;
+  border: 1.3pt solid #565759 !important;
+}
+.filter-container .search-wrap-light input {
+  background-color: #fff !important;
+  color: #494948 !important;
+}
+
+.filter-container .sub-menu .dot {
+  font-size: 70px;
+  color: #00acee;
+  border: 1px solid red;
+  display: flex;
+  align-items: flex-end;
+  text-align: left;
+  margin-left: 500px;
+}
+@keyframes toggle {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
+.filter-container [aria-expanded="true"] span > img {
+  transform: rotate(0deg);
+  animation: toggle 0.3s;
+  animation-fill-mode: forwards;
+  user-select: none;
+}
+
+.filter-container .cursor-pointer {
+  cursor: pointer;
+}
+
+.filter_container .cursor-pointer {
+  cursor: pointer;
+}
+
+.hide .sub-menu {
+  display: none;
+}
+.filter-container input::placeholder {
+  color: #004781 !important;
+}
+
+.li-btn {
+  cursor: pointer !important;
+  list-style: none;
+}
+
+.li-btn::before {
+  content: "\2022";
+  color: #00acee;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+.appliedFilterBtn {
+  background-color: #00acee;
+  color: #494948;
+  padding: 5px 20px;
+  margin: 0 5px;
+  border-radius: 10px;
+  border: 1px solid grey !important;
+  text-transform: capitalize;
+}
+.clearAllFiltersBtn {
+  border: none;
+  outline: none;
+  background-color: none;
+  color: #004781;
+}
+.clearAllFiltersBtn:hover {
+  text-decoration: underline;
+}
+.loadMoreDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.loadMorebtn {
+  cursor: pointer;
+  width: 55px;
+  height: 55px;
+}
+.hidden-element {
+  display: none;
+}

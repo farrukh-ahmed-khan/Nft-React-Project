@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+.about {
+  border-radius: 20px;
+  width: 250px;
+  height: 250px;
+}
+
+.about p {
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  padding: 1px 5px;
+  line-height: 18px;
+}
+
+.about p:hover {
+  background-color: #faeff3;
+  border-radius: 6px;
+}
+
+.about h3 {
+  font-weight: 600;
+  padding: 0 4px;
+  font-size: 22px;
+}
+
+.about-desc {
+  border-radius: 20px;
+  width: 400px;
+  height: 250px;
+}
+
+.photos-section,
+.videos-section {
+  border-radius: 20px;
+  margin-top: 10px;
+  width: 100%;
+  height: 200px;
+  background-color: #fff;
+}
+
+.photos-innderdiv h3,
+.videos-innderdiv h3 {
+  font-size: 20px;
+}
+.photos-innderdiv p,
+.videos-innderdiv p {
+  font-size: 11px;
+  font-weight: 500;
+  color: #333;
+  font-family: "Montserrat", sans-serif;
+}
+
+.images,
+.videos {
+  width: 120px;
+  height: 100px;
+  background-color: #89adc9;
+  margin: 0 1px;
+}
+
+.images.image1,
+.videos.video1 {
+  border-radius: 10px 0 0 0;
+}
+.images.image4,
+.videos.video4 {
+  border-radius: 0 10px 0 0;
+}
+
+.about-data {
+  font-weight: 500;
+  font-size: 13px;
+  padding: 0 6px;
+}
+
+@media screen and (max-width: 670px) {
+  .about {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  .about-desc {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1115px) {
+  .about {
+    width: 100%;
+    margin-bottom: 6px;
+  }
+  .about-desc {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 509px) {
+  .photos-section,
+  .videos-section {
+    border-radius: 20px;
+    margin-top: 10px;
+    width: 100%;
+    height: 300px;
+    background-color: #fff;
+  }
+}

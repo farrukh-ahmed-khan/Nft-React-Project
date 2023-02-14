@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --theme-color-dark-blue: #191c3b;
+  --theme-color-green: #5b5b5b;
+  --theme-color-btn-light: #f9ccff;
+  --theme-color-btn-light-text: #494948;
+  --theme-color-icon-light: #89adc9;
+  --theme-color-bg: #faeff3;
+  --font-1: "Montserrat", sans-serif;
+  --font-2: "Poppins", sans-serif;
+  --btn-transition: 0.3s ease;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none !important;
+}
+a:hover {
+  text-decoration: none !important;
+}
+a:active,
+a:focus,
+button:active,
+button:focus,
+input:active,
+input:focus {
+  outline: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-1) !important;
+}
+p,
+label,
+strong,
+span,
+input,
+small {
+  font-family: var(--font-1) !important;
+}
+p {
+  color: var(--theme-color-btn-light-text);
+}
+.form-control:focus {
+  outline: 0;
+  box-shadow: none !important;
+}
+h1.home-title {
+  font-size: 1.75rem;
+  color: var(--theme-color-btn-light-text);
+  margin-bottom: 1.25rem;
+}
+
+/* =======Giff css======== */
+@media only screen and (max-width: 768px){
+
+  .listOfGiph img{
+    width: 70px !important;
+    height: 80px !important;
+  }  
+}
+.gif-search-wrap {
+  display: inline-flex;
+  justify-content: center;
+}
+.gif-search-wrap span{
+  padding: 8px;
+}
+.gif-search-wrap svg{
+  width:18px !important;
+  height:18px !important;
+  fill: var(--theme-color-btn-light-text);
+}
+.gif-search-wrap svg:hover{
+  fill: #004781;
+}
+.gif-search-wrap input{
+  width: 80%;
+}
+.listOfGiph{
+  /* width: 100%; */
+padding: 5px 8px;
+height: 180px;
+overflow-y: auto;
+}
+.giph{
+  width: 100%;
+}
+.giph img{
+  width: 100% !important;
+}
+/* POLL STYLING */
+.deletePoll{
+  fill:rgb(236, 8, 0);
+}
+.creatingPoll{
+  pointer-events: none;
+  cursor: no-drop;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

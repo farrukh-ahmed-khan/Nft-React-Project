@@ -1,0 +1,44 @@
+.cardPostContent {
+  margin: 0.2rem;
+  color: var(--theme-color-btn-light-text);
+}
+.standardText {
+  color: #89adc9;
+}
+
+.editButton {
+  background-color: #c8d6e596;
+  width: 85%;
+  border: none;
+  color: rgb(7, 7, 7);
+  font-weight: 600;
+  padding: 0.4rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 19px 2px;
+  cursor: pointer;
+  border-radius: 1.2rem;
+}
+
+.aboutText {
+  font-size: 0.8rem;
+}
+.cardPostPictures span {
+  font-size: 0.8rem;
+}
+.ProfilePhotosDiv {
+  width: 100%;
+  /* border: 1px solid red; */
+}
+.ProfilePhotosDiv .ProfileImagesDiv {
+  width: 100%;
+  border-radius: 1.5rem;
+  overflow: hidden;
+}
+
+.ProfilePhotosDiv img {
+  width: 33%;
+  padding: 1px;
+}

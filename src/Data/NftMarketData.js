@@ -1,0 +1,106 @@
+const NftMarketData = [
+  {
+    imgSrc: "img1.png",
+    collection: "Crypto Religious Runes",
+    ownerId:"62270b496de0ca3f801ac060",
+    title: "Crypto Runes #6145",
+    price: 7.009,
+    status:[
+      "status",
+      "new",
+    ],
+    chain:"ethereum",
+    category:"art",
+  },
+  {
+    imgSrc: "img2.png",
+    collection: "Crypto temple Runes",
+    ownerId:"62270b496de0ca3f801ac060",
+    title: "Crypto Runes #6146",
+    price: 9.001,
+    status:[
+      "hasOffers",
+      "new",
+    ],
+    chain:"polygon",
+    category:"collectible",
+  },
+  {
+    imgSrc: "img3.png",
+    collection: "Crypto hello Runes",
+    ownerId:"62270b497adecff4c34382e8",
+    title: "Crypto Runes #6144",
+    price: 4.009,
+    status:[
+      "status",
+      "new",
+    ],
+    chain:"ethereum",
+    category:"art",
+  },
+  {
+    imgSrc: "img3.png",
+    collection: "Crypto Religious Runes",
+    ownerId:"62270b497adecff4c34382e8",
+    title: "Crypto Runes #6144",
+    price: 0.009,
+    status:[
+      "onAuction",
+    ],
+    chain:"polygon",
+    category:"collectible",
+  },
+  {
+    imgSrc: "img5.png",
+    collection: "Crypto Religious Runes",
+    ownerId:"62270b49a3e7e612e97b5b37",
+    title: "Crypto Runes #6144",
+    price: 1.004,
+    status:[
+      "status",
+      "new",
+    ],
+    chain:"ethereum",
+    category:"art",
+  },
+  {
+    imgSrc: "img6.png",
+    collection: "Crypto Religious Runes",
+    ownerId:"62270b49a3e7e612e97b5b37",
+    title: "Crypto Runes #6144",
+    price: 5.009,
+    status:[
+      "status",
+    ],
+    chain:"polygon",
+    category:"collectible",
+  },
+  {
+    imgSrc: "img7.png",
+    collection: "Crypto Religious Runes",
+    ownerId:"62270b49811a4aeb66abaa45",
+    title: "Crypto Runes #6144",
+    price: 2.009,
+    status:[
+      "status",
+      "new",
+    ],
+    chain:"ethereum",
+    category:"art",
+  },
+  {
+    imgSrc: "img7.png",
+    collection: "Crypto Religious Runes",
+    ownerId:"62270b49811a4aeb66abaa45",
+    title: "Crypto Runes #6144",
+    price: 0.009,
+    status:[
+      "status",
+      "new",
+    ],
+    chain:"polygon",
+    category:"collectible",
+  },
+];
+
+export default NftMarketData;

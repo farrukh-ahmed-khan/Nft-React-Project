@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+.photos-section,
+.videos-section {
+  border-radius: 20px;
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  padding-bottom: 10px;
+}
+
+.photos-innderdiv h3,
+.videos-innderdiv h3 {
+  font-size: 20px;
+}
+.photos-innderdiv p,
+.videos-innderdiv p {
+  font-size: 11px;
+  font-weight: 500;
+  color: #333;
+  font-family: "Montserrat", sans-serif;
+}
+
+.images,
+.videos {
+  width: 120px;
+  height: 100px;
+  background-color: #89adc9;
+  margin: 0 1px;
+}
+
+.images.image1,
+.videos.video1 {
+  border-radius: 10px 0 0 0;
+}
+.images.image4,
+.videos.video4 {
+  border-radius: 0 10px 0 0;
+}
+
+.about-data {
+  font-weight: 500;
+  font-size: 13px;
+  padding: 0 6px;
+}

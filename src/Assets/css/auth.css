@@ -1,0 +1,155 @@
+.wrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background: url(../images/BackWithPic.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.main-title {
+  font-weight: 800;
+  font-size: 3.5rem;
+}
+.main-title {
+  font-weight: 800;
+  font-size: 2.85rem;
+  color: var(--theme-color-dark-blue);
+  margin-bottom: 2.5rem;
+}
+.main-title span:nth-child(1) {
+  color: var(--theme-color-dark-blue);
+  position: relative;
+  display: block;
+  width: 345px;
+}
+.main-title span:nth-child(1):after {
+  content: "";
+  position: absolute;
+  right: 70px;
+  bottom: 15px;
+  width: 85px;
+  height: 10px;
+  background: var(--theme-color-dark-blue);
+}
+.main-title span:nth-child(2) {
+  color: var(--theme-color-green);
+}
+.main-title-md {
+  font-weight: 800;
+  font-size: 2.45rem;
+  color: var(--theme-color-dark-blue);
+  margin-bottom: 2.5rem;
+}
+.top-text {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--theme-color-dark-blue);
+}
+p.main-sm-text {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--theme-color-dark-blue);
+  margin-bottom: 1.75rem;
+}
+.btn-theme-dark {
+  background-color: var(--theme-color-dark-blue) !important;
+  color: #fff !important;
+}
+.btn-theme-light {
+  background-color: var(--theme-color-btn-light) !important;
+  color: var(--theme-color-green) !important;
+}
+button.btn.btn-theme {
+  font-weight: 600;
+  font-size: 18px;
+  font-family: var(--font-2);
+  border-radius: 1.25rem;
+  width: 150px;
+  padding: 10px 15px;
+  transition: var(--btn-transition);
+}
+button.btn.btn-theme:hover {
+  opacity: 0.85;
+}
+button.btn.btn-theme.btn-theme-dark:hover {
+  color: #fff !important;
+}
+.input-wrapper {
+  position: relative;
+}
+input.form-control.auth-input-field {
+  border-color: var(--theme-color-dark-blue);
+  border-width: 2px;
+  height: 70px;
+  margin-bottom: 1rem;
+  border-radius: 3rem;
+  background: transparent;
+  padding: 0 1rem 0 4rem;
+  font-size: 18px;
+  font-family: var(--font-1);
+}
+input.form-control.auth-input-field:placeholder {
+  color: var(--theme-color-btn-light);
+  font-weight: 600;
+}
+.input-wrapper {
+  position: relative;
+}
+.input-wrapper span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 75px;
+  position: absolute;
+  top: 0%;
+}
+.input-wrapper span img {
+  width: 40px;
+  height: 100%;
+  object-fit: contain;
+}
+p.text-forgot {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--theme-color-green);
+}
+p.text-forgot a {
+  color: var(--theme-color-green);
+  cursor: pointer;
+}
+.auth-avatar {
+  background: var(--theme-color-green);
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+  border-radius: 100%;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+.auth-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+p.text-forgot.underline a {
+  text-decoration: underline !important;
+}
+input.form-control.auth-input-field-forgot {
+  border: 0;
+  font-size: 18px;
+  background: transparent;
+  border-bottom: 2px solid var(--theme-color-green);
+  border-radius: 0;
+  text-align: center;
+}
+input.form-control.auth-input-field-forgot::placeholder {
+  font-weight: 500;
+  color: var(--theme-color-green);
+}
+
+.passNotSame{
+  display: block;
+  padding-left: 30px !important;
+}

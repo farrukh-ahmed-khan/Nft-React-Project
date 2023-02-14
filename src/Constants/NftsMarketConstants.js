@@ -1,0 +1,7 @@
+export const NFT_POST_REQUEST = 'NFT_POST_REQUEST';
+export const NFT_POST_SUCCESS = 'NFT_POST_SUCCESS';
+export const NFT_POST_FAIL = 'NFT_POST_FAIL';
+
+export const NFT_BY_USER_REQ = 'NFT_BY_USER_REQ';
+export const NFT_BY_USER_SUCCESS = 'NFT_BY_USER_SUCCESS';
+export const NFT_BY_USER_FAIL = 'NFT_BY_USER_FAIL';

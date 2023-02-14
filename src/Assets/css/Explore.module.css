@@ -1,0 +1,115 @@
+.explore-title {
+  font-size: 1.5rem;
+  color: var(--theme-color-btn-light-text);
+}
+.explore-desc-wrapper .explore-title {
+  text-align: center;
+}
+.explore-desc {
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-align: center;
+  color: #000;
+}
+.explore-art-card {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  padding: 0;
+  text-align: center;
+  position: relative;
+  min-height: 210px;
+  width: 32%;
+  margin: 0px 4px;
+}
+
+@media screen and (max-width: 800px) {
+  .explore-art-card {
+    width: 100%;
+    margin: 0;
+  }
+  .cards {
+    overflow-x: hidden;
+  }
+}
+
+@media screen and (max-width: 762px) {
+  .explore-art-card {
+    width: 90% !important;
+    margin: 0 auto !important;
+    margin-bottom: 10px !important;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .explore-art-card {
+    width: 90% !important;
+    margin: 0 auto !important;
+    margin-bottom: 10px !important;
+  }
+}
+.explore-art-card > img {
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.split {
+  border-top: 2px solid #02a1e0;
+}
+.trending-title {
+  font-size: 1.4rem;
+  color: var(--theme-color-btn-light-text);
+}
+.explore-art-card h3 {
+  font-size: 13px;
+  font-weight: 700;
+  color: #000;
+  padding-top: 18px;
+  margin-bottom: -4px;
+  white-space: nowrap;
+  width: 80%;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  margin: 0 auto;
+}
+.content > p {
+  font-size: 10px;
+}
+
+.explore-art-card svg {
+  width: 8px;
+  fill: #808080;
+  position: absolute;
+  left: 7px;
+  bottom: 5px;
+}
+.profilePic {
+  height: 10px;
+}
+
+.profilePic img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid white;
+  position: relative;
+  top: -20px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.author {
+  font-size: 11px;
+  font-weight: 600;
+}
+.content {
+  padding: 0 10px;
+}
+@media screen and (max-width: 1024px) {
+  .explore-title {
+    font-size: 1.25rem;
+  }
+  .explore-desc {
+    text-align: center;
+  }
+}
